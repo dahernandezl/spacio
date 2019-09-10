@@ -81,13 +81,16 @@ h2 {
   padding: 0 1em;
   position:static;
   top: 0;
+  font-size: xx-large;
+  margin-top: 20px;
+
 }
 strong {
+  margin-top: 20px;
   font-family: 'Salsa', cursive;
-  font-weight: bold;
-  font-size: xx-large;
+  /* font-weight: bold; */
   letter-spacing: 5px;
-  text-shadow: 1px 1px black;
+  /* text-shadow: 1px 1px black; */
 }
 
 .hero img {
