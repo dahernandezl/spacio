@@ -43,6 +43,11 @@ body {
   align-items: center;
   /* font-size: small; */
 }
+.header ul {
+  padding: 0;
+  margin: 0;
+  padding: 1em;
+}
 .header img {
   height: 80px;
 }
@@ -232,12 +237,12 @@ h4 {
 }
 .form {
   align-self: center;
+  text-align: center;
 }
 .form input {
   width: 70%;
   padding: 10px;
   font-size: 16px;
-  /* border: 1px solid #dbdbe2; */
   border-radius: 5px;
   box-sizing: border-box;
   margin-bottom: 10px;
