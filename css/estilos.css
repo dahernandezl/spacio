@@ -43,6 +43,11 @@ body {
   align-items: center;
   /* font-size: small; */
 }
+.header ul {
+  padding: 0;
+  margin: 0;
+  padding: 1em;
+}
 .header img {
   height: 80px;
 }
@@ -119,6 +124,12 @@ strong {
 .desc-facial {
   padding-left: 1em;
 }
+.desc-masaje h3 {
+  font-size: x-large;
+}
+.desc-masaje h4 {
+  font-size: large;
+}
 /* aqui empieza faciales */
 .faciales-cont {
   display: grid;
@@ -141,6 +152,9 @@ strong {
 .foto-facial,
 .desc-facial p {
   font-size: small;
+}
+.desc-facial h4 {
+  font-size: large;
 }
 .foto-masaje,
 .desc-masaje p {
@@ -223,18 +237,18 @@ h4 {
 }
 .form {
   align-self: center;
+  text-align: center;
 }
 .form input {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   font-size: 16px;
-  /* border: 1px solid #dbdbe2; */
   border-radius: 5px;
   box-sizing: border-box;
   margin-bottom: 10px;
 }
 .form button{
-  width: 100%;
+  width: 70%;
   background-color: white;
   color: #2c003e;
   padding: 10px 15px;
@@ -328,7 +342,7 @@ img {
     justify-content: center;
   }
 
-  }
+
   .lista ol{
     padding: 0;
     margin: 0;
